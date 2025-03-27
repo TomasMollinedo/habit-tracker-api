@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Variables de entorno
+.env
+
+# Archivos de log
+*.log
+
+# Cache de npm
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
+
+# Archivos de producción
+dist/

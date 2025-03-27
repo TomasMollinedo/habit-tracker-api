@@ -1,0 +1,128 @@
+{
+    "nextId": 25,
+    "habits": [
+        {
+            "id": 7,
+            "nombre": "holaasdasdnda",
+            "progreso": "En progreso",
+            "createdAt": "2025-02-25T18:35:52.784Z"
+        },
+        {
+            "id": 8,
+            "nombre": "holaasdasdnda",
+            "progreso": "En progreso",
+            "createdAt": "2025-02-25T18:35:53.166Z"
+        },
+        {
+            "id": 9,
+            "nombre": "holaasdasdnda",
+            "progreso": "En progreso",
+            "createdAt": "2025-02-25T18:35:53.411Z"
+        },
+        {
+            "id": 10,
+            "nombre": "holaasdasdnda",
+            "progreso": "En progreso",
+            "createdAt": "2025-02-25T18:35:53.636Z"
+        },
+        {
+            "id": 11,
+            "progreso": "Completado",
+            "createdAt": "2025-02-25T18:35:53.851Z",
+            "nombre": "tomate",
+            "deleted": false,
+            "updatedAt": "2025-03-12T13:24:49.535Z"
+        },
+        {
+            "id": 12,
+            "nombre": "holaasdasdnda",
+            "progreso": "En progreso",
+            "createdAt": "2025-02-25T19:01:45.226Z",
+            "deleteted": false
+        },
+        {
+            "id": 13,
+            "nombre": "holaasdasdnda",
+            "progreso": "En progreso",
+            "createdAt": "2025-02-25T19:02:31.811Z",
+            "deleted": false
+        },
+        {
+            "id": 14,
+            "nombre": "holaasdasdnda",
+            "progreso": "En progreso",
+            "createdAt": "2025-02-25T19:02:32.860Z",
+            "deleted": false
+        },
+        {
+            "id": 16,
+            "nombre": "holaasdasdnda",
+            "progreso": "En progreso",
+            "createdAt": "2025-03-03T18:51:08.344Z",
+            "deleted": false
+        },
+        {
+            "id": 17,
+            "nombre": "holaasdasdnda",
+            "progreso": "En progreso",
+            "createdAt": "2025-03-03T18:51:08.658Z",
+            "deleted": true
+        },
+        {
+            "id": 18,
+            "nombre": "tomate",
+            "progreso": "Completado",
+            "createdAt": "2025-03-10T13:48:42.625Z",
+            "updatedAt": "2025-03-12T13:24:46.087Z",
+            "deleted": false
+        },
+        {
+            "id": 19,
+            "nombre": "holaasdasdnda",
+            "progreso": "En progreso",
+            "createdAt": "2025-03-11T14:28:11.199Z",
+            "updatedAt": "2025-03-11T14:28:11.199Z",
+            "deleted": false
+        },
+        {
+            "id": 20,
+            "nombre": "holaasdasdnda",
+            "progreso": "En progreso",
+            "createdAt": "2025-03-11T23:18:09.534Z",
+            "updatedAt": "2025-03-11T23:18:09.534Z",
+            "deleted": false
+        },
+        {
+            "id": 21,
+            "nombre": "holaasdasdnda",
+            "progreso": "En progreso",
+            "createdAt": "2025-03-11T23:18:10.039Z",
+            "updatedAt": "2025-03-11T23:18:10.039Z",
+            "deleted": false
+        },
+        {
+            "id": 22,
+            "nombre": "holaasdasdnda",
+            "progreso": "En progreso",
+            "createdAt": "2025-03-11T23:18:11.163Z",
+            "updatedAt": "2025-03-12T13:27:24.582Z",
+            "deleted": false
+        },
+        {
+            "id": 23,
+            "nombre": "comer pina",
+            "progreso": "En progreso",
+            "createdAt": "2025-03-11T23:32:57.223Z",
+            "updatedAt": "2025-03-11T23:32:57.223Z",
+            "deleted": false
+        },
+        {
+            "id": 24,
+            "nombre": "salir a caminar",
+            "progreso": "En progreso",
+            "createdAt": "2025-03-12T21:21:09.354Z",
+            "updatedAt": "2025-03-12T21:21:09.354Z",
+            "deleted": true
+        }
+    ]
+}
