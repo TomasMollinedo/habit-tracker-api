@@ -250,7 +250,8 @@ exports.searchHabit = async (req,res)=>{
     
     try{
 
-        const [resultados] = await pool.query("SELECT * FROM habits WHERE nombre=? AND deleted=0",[nombreNormalizado]);
+        const [resultados] = await pool.query("SELECT * FROM habits WHERE nombre=? AND deleted=0",
+            [nombreNormalizado]);
 
         if(resultados.length == 0){
             //Devolvemos un JSON con los resultados en lugar de un error, el json va a estar vacio
@@ -263,7 +264,7 @@ exports.searchHabit = async (req,res)=>{
     }
 };
 
-exports.filterHabits = (req,res)=>{
+exports.filterHabits = async (req,res)=>{
     const {progreso} = req.query;
 
     if (typeof progreso !== "string") {
@@ -284,10 +285,18 @@ exports.filterHabits = (req,res)=>{
         });
     }
 
-    const data = leerDatos();
-    const habits = data.habits.filter(h=>!h.deleted);
-    const resultados = habits.filter(h => h.progreso.toLowerCase() === progresoNormalizado);
+    try{
+        const [resultados] = await pool.query(
+            "SELECT * FROM habits WHERE progreso=? AND deleted=0",
+            [progresoNormalizado]);
 
-    res.status(200).json({resultados});
-
+        if(resultados.length == 0){
+            //Devolvemos un JSON con los resultados en lugar de un error, el json va a estar vacio
+            return res.status(404).json({resultados});
+        }
+        res.status(200).json({resultados});
+    } catch(error){
+        console.error("Error al buscar el hábito:",error);
+        res.status(500).json({error: "Error al buscar el hábito."});
+    }
 };
